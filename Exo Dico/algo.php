@@ -9,20 +9,19 @@ $dico = explode("\n", $string);
 echo "Ce dico contient un total de " . (count($dico)) . " mots.";
 
 
-// EXERCICE 1
+// EXERCICE 2
 echo "<br>";
 echo "<br>";
 echo "Exercice 2";
 echo "<br>";
 
 $quinzecharaTABLE = [];
-$quinzechara = strlen($dico);
 
-for($dico =0; $dico < count($dico) ; $i+=1){
-if($dico.$value === ){
-
-}}
+for ($i =0; $i < count($dico) ; $i +=1){
+    $word = trim($dico[$i]); 
+if (strlen($word) === 15) { 
+    $quinzecharaTABLE[] = $word;    }
+}
 
 echo "Ce dico contient un total de " . (count($quinzecharaTABLE)) . " mots faisant exactment 15 catactères.";
 
-var_dump($dico);
