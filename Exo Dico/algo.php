@@ -25,3 +25,20 @@ if (strlen($word) === 15) {
 
 echo "Ce dico contient un total de " . (count($quinzecharaTABLE)) . " mots faisant exactment 15 catactères.";
 
+
+// EXERCICE 3
+echo "<br>";
+echo "<br>";
+echo "Exercice 2";
+echo "<br>";
+
+$WcharaTABLE = [];
+
+foreach ($dico as &$value) {
+    $Wchara = str_contains(string $dico, string "w");
+    if (strlen($dico) === $Wchara ){
+
+    }
+    echo $value;
+    echo "<br>";
+};
